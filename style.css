@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+ height: 200vw;
+    margin: 2px;
+    background-color:whitesmoke;
+    overflow: scroll;
+    }
+.header{
+     background-color:palevioletred;
+     padding: 20px;
+     text-align: center; 
+    }
+.navbar{
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background-color:navajowhite;
+    font-family: cursive;;
+    }
+a{
+    display: inline;
+    color: #857474;
+    text-align: center;
+    padding:5px;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.layout{
+ 
+  width:90vw;
+ padding: 20px;
+}
+.layout1{
+    padding: 30px;
+    margin-top: 1px;
+    border: 1px solid black;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-justify: auto;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: linen;
+}
+.layout2{
+    padding: 30px;
+    margin-top: 1px;
+    border: 1px solid black;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-justify: auto;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:linen;
+}
+.container{
+    width: 100%;
+}
+img{
+    margin-top: 8px;
+    vertical-align: middle;
+    border-radius: 8px;
+    padding: 10px; 
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.layout-contact{
+    padding: 30px;
+    margin-left: 25%;
+}
+h3{
+    font-family: cursive;  
+}
+    .contactform{
+      background-color:lightcoral;
+      padding: 20px;
+      margin-top:5px;
+      float: left;
+      width: 50%;
+      font-family: cursive;
+  }
+ .booking{
+    background-color:lightcoral;
+    padding: 20px;
+    margin-top:5px;
+    margin-left:2px;
+    float: left;
+    width: 50%;
+    font-family: cursive;
+ }
+li{
+    float: left;
+}
+#pcontact{
+    background-color:  #f1f1f1;
+}
+h4{
+    background-color: #f1f1f1;
+    color: black;
+}
+#gallery{
+    background-color:navajowhite;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    margin-top: 3px;;
+    text-align: center;
+}
+.row{
+
+    display:flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.col{
+    flex: 50%;
+    max-width: 40%;
+    padding: 0 4px;
+}
+.col img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+.event{
+    background-color: whitesmoke;;
+    color:black;
+    font-size: larger;
+}
+#text{
+    color: palevioletred;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+  }
+  footer{
+position: fixed;
+padding: 1px;
+bottom: 1px;
+width: 99.6%;
+height:auto;
+background-color:palevioletred;
+color: white;
+text-align: center;
+}
+.a-footer{
+  display: inline;
+}
+.map{
+    padding: 5px;
+    margin-left: 20px;  
+    float: left;    
+}
+#gallery-footer{
+    width: 100%;
+    height: auto;
+    background-color:sandybrown;;
+    color: white;
+    text-align: center;
+    display:block ;
+    }
+#event-footer{
+bottom: 2px;;
+width: 100%;
+height: auto;
+background-color:sandybrown;;
+color: white;
+text-align: center;
+display:block ;
+}
+#gallery-body{
+    background-color: lightpink;
+}
+
+
+   @media screen and (max-width: 768px) {
+    .navbar a {
+        float: none;
+        display: block;
+      }
+      footer{
+          float: left;
+          display: block;
+      }
+      .contactform{
+          width: 100%;
+      }
+      .booking{
+          width: 100%;
+      }
+      .col {
+    
+        flex: 100%;
+        max-width: 100%;
+      }
+      iframe{
+        height: auto;
+         display:float;
+    }
+    #gallery-footer{
+        height: auto;
+    }
+    #contact-footer{
+        height: auto;
+    }
+  }
